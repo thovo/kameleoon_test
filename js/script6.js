@@ -1,8 +1,30 @@
 (function() {
   $(document).ready(function(){
-    $.getJSON("https://raw.githubusercontent.com/thovo/kameleoon_test/master/recs.txt", handleData);
+    $.ajaxSetup({
+      cache: false
+    }); // fix for IE
+    var url = "https://raw.githubusercontent.com/thovo/kameleoon_test/master/recs.txt";
+    var data = {};
+    if (window.XMLHttpRequest) {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+           if(xmlhttp.status == 200){
+               data = JSON.parse(xmlhttp.responseText);
+               handleData(data);
+           }
+           else if(xmlhttp.status == 400) {
+              alert('There was an error 400');
+           }
+           else {
+               alert('Something else other than 200 was returned');
+           }
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+   } 
     function handleData(data) {
-      console.log(data);
       var data_as_viewed = data.placements[0];
       var data_as_bought = data.placements[1];
       var section_header_viewed = data_as_viewed.strategy_message;
