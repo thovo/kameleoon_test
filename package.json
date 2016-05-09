@@ -1,0 +1,27 @@
+{
+  "name": "kameleoon",
+  "version": "1.0.0",
+  "description": "kameleoon test project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "Kameleoon",
+    "test"
+  ],
+  "author": "Tho Vo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-cache": "0.4.1",
+    "gulp-cssnano": "2.1.0",
+    "gulp-jade": "1.1.0",
+    "gulp-notify": "2.2.0",
+    "gulp-ruby-sass": "2.0.6",
+    "gulp-uglify": "^1.5.1"
+  }
+}

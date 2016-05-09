@@ -1,0 +1,78 @@
+{
+   "placements":[
+      {
+         "strategy_message":"People who viewed this item also viewed",
+         "recs":[
+            {
+               "pid":"Prod_1000",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 1",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$10.99"
+               
+            },
+            {
+               "pid":"Prod_2001",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 2",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$4.99"
+            },
+            {
+               "pid":"Prod_1202",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 3",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$12.99"
+            }
+         ]
+      },
+      {
+         "strategy_message":"People who bought this item also bought",
+         "recs":[
+            {
+               "pid":"Prod_1010",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 1",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$100.99"
+            },
+            {
+               "pid":"Prod_1011",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 2",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$30.99"
+            },
+            {
+               "pid":"Prod_1012",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 3",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$20.99"
+            },
+            {
+               "pid":"Prod_1013",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 4",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$16.99"
+            },
+            {
+               "pid":"Prod_1014",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 5",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$22.99"
+            },
+            {
+               "pid":"Prod_1015",
+               "ct_url":"http://www.kameleoon.com/",
+               "name":"Product 6",
+               "img":"http://www.kameleoon.com/images/kameleoon/icon-complet.png",
+               "price":"$22.99"
+            }
+         ]
+      }
+   ]
+}

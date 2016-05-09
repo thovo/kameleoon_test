@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section {
+  padding: 5px;
+  outline: 2px solid gray;
+  margin-bottom: 10px;
+}
+.section .section-header h3 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.section .section-content li {
+  display: inline-block;
+}
+.section.content .section-content li, .section.sidebar .section-content li {
+  width: 15%;
+}
+.section.also {
+  padding: 0;
+}
+.section.also .section-header h4 {
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 5px;
+  background-color: gray;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+.section.also .section-content {
+  text-align: center;
+}
+.section.also .section-content img {
+  width: 90px;
+  height: 90px;
+}
+.section.also .section-content li {
+  margin-bottom: 5px;
+}
+.section.also .section-content li .thumbnail {
+  width: 100px;
+  margin: 0 auto;
+}
+.section.also .section-content li .product-link {
+  margin: 5px;
+  display: inline-block;
+}
+.section.also-viewed .section-content li {
+  width: 100%;
+}
+.section.also-bought .section-content li {
+  width: 14%;
+  margin-right: 2%;
+}
+.section .section-content {
+  font-size: 14px;
+  font-weight: 600;
+}
+.section.content .section-content, .section.sidebar .section-content {
+  min-height: 361px;
+}

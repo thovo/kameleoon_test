@@ -1,0 +1,17 @@
+include partials/_doctype.jade
+head
+  include partials/_meta.jade
+  include partials/_links.jade 
+body(onload="loadData();")
+  .col-md-12 
+    include partials/_header.jade
+  .left-content.col-md-9 
+    include partials/_navigation.jade 
+    include partials/_side_bar.jade 
+    include partials/_content.jade 
+  .right-content.col-md-3 
+    include partials/_also_viewed_with_data.jade
+  .col-md-12 
+    include partials/_also_bought_with_data.jade 
+    include partials/_footer.jade 
+    script(type="application/javascript", src="js/script6.js")
